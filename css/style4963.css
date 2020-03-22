@@ -36,8 +36,8 @@ a {
 
 @font-face {
     font-family: 'montserratlight';
-    src: url('fonts/montserrat-lightPratik Udeshi');
-    src: url('fonts/montserrat-lightd41dPratik Udeshi?') format('embedded-opentype'), url('fonts/montserrat-light-2Pratik Udeshi') format('woff2'), url('fonts/montserrat-light-3Pratik Udeshi') format('woff'), url('fonts/montserrat-light-4Pratik Udeshi') format('truetype'), url('fonts/montserrat-light-5Pratik Udeshi') format('svg');
+    src: url('fonts/montserrat-light.html');
+    src: url('fonts/montserrat-lightd41d.html?') format('embedded-opentype'), url('fonts/montserrat-light-2.html') format('woff2'), url('fonts/montserrat-light-3.html') format('woff'), url('fonts/montserrat-light-4.html') format('truetype'), url('fonts/montserrat-light-5.html') format('svg');
     font-weight: normal;
     font-style: normal;
 }

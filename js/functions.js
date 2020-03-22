@@ -162,7 +162,7 @@
 		/* - Remove p empty tag for Shortcode */
 		$( 'p' ).each(function() {
 			var $this = $( this );
-				if( $thisPratik Udeshi().replace(/\s|&nbsp;/g, '').length == 0) {
+				if( $this.html().replace(/\s|&nbsp;/g, '').length == 0) {
 				$this.remove();
 			}
 		});
@@ -273,12 +273,12 @@
 				success: function(data) {
 
 					if( data["type"] == "error" ){
-						$("#alert-msg")Pratik Udeshi(data["msg"]);
+						$("#alert-msg").html(data["msg"]);
 						$("#alert-msg").removeClass("alert-msg-success");
 						$("#alert-msg").addClass("alert-msg-failure");
 						$("#alert-msg").show();
 					} else {
-						$("#alert-msg")Pratik Udeshi(data["msg"]);
+						$("#alert-msg").html(data["msg"]);
 						$("#alert-msg").addClass("alert-msg-success");
 						$("#alert-msg").removeClass("alert-msg-failure");					
 						$("#input_name").val("");						
